@@ -1,0 +1,140 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    /*background-color: #fafafa;*/
+}
+
+li {
+    list-style: none;
+}
+
+li > b {
+    color: black;
+}
+.exp li{
+    color: #2196f3;
+    /*color: #f55d42;*/
+
+}
+a {
+    text-decoration: none;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+}
+
+input[type="text"] {
+    width: 97%;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="number"] {
+    width: 11%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.container h1 {
+    color: #2196f3;
+}
+
+.container h2 {
+    color: #f55d42;
+}
+
+header {
+    border-bottom: 1px #e3e2e2 solid;
+}
+
+footer {
+    border-top: 1px #e3e2e2 solid;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+a.start {
+    display: inline-block;
+    color: #0d8cf1;
+    background-color: #fafafa;
+    border: 1px dashed #2196f3;
+    padding: 6px 13px;
+    transition: .5s;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+a.start:hover {
+    color: white;
+    background-color: #2196f3;
+}
+.finish{
+    display: inline-block;
+    color: #0d8cf1;
+    background-color: #fafafa;
+    border: 1px dashed #2196f3;
+    padding: 6px 13px;
+    transition: .5s;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.finish:hover {
+    color: white;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+.current {
+    padding: 10px;
+    background: #fafafa;
+    border: 1px dotted #f55d42;
+    margin: 20px 0 10px 0;
+}
+
+.container .submit {
+    display: inline-block;
+    color: white;
+    background-color: #2998f1;
+    border: 1px solid #2196f3;
+    padding: 10px 17px;
+    transition: .5s;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.container .submit:hover {
+    background-color: #017cdc;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 76%;
+    }
+
+}
+
